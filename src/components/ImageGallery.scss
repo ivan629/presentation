@@ -1,0 +1,36 @@
+.image-gallery-container {
+  max-height: calc(100vh - 65px);
+  overflow: auto;
+
+  .image-card {
+    position: relative;
+    margin: 15px;
+    flex: 0 45%;
+    overflow: visible;
+    box-sizing: border-box;
+
+
+    .delete-icon-container {
+      position: absolute;
+      right: -5px;
+      top: -25px;
+      z-index: 1;
+      color: red;
+      cursor: pointer;
+    }
+
+    .image-container {
+      overflow: hidden;
+      height: 180px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .card-actions {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

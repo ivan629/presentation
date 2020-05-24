@@ -1,0 +1,10 @@
+$height: calc(100vh - 120px);
+
+.slider .slick-list {
+  height: $height;
+
+  .slider-image {
+    height: $height;
+    object-fit: contain;
+  }
+}

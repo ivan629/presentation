@@ -3,12 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "classname": "0.0.0",
+    "clsx": "^1.1.0",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-drag-list": "^1.1.0",
+    "react-draggable": "^4.4.2",
+    "react-draggable-list": "^4.0.3",
+    "react-file-drop": "^3.0.6",
+    "react-images-upload": "^1.2.8",
+    "react-scripts": "3.4.1",
+    "react-slick": "^0.26.1",
+    "react-sortable-hoc": "^1.11.0",
+    "shortid": "^2.2.15"
   },
   "scripts": {
     "start": "react-scripts start",
